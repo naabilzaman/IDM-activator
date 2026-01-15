@@ -372,7 +372,7 @@ echo:
 echo:
 timeout /t 3
 
-start https://github.com/NaeemBolchhi/IDM-Activator
+start https://github.com/naabilzaman/IDM-Activator
 goto MainMenu
 
 ::========================================================================================================================================
@@ -424,7 +424,7 @@ echo:
 
 set "reg=HKCU\SOFTWARE\DownloadManager /v FName /t REG_SZ /d "%name%"" & call :_rcont
 set "reg=HKCU\SOFTWARE\DownloadManager /v LName /t REG_SZ /d """ & call :_rcont
-set "reg=HKCU\SOFTWARE\DownloadManager /v Email /t REG_SZ /d "info@tonec.com"" & call :_rcont
+set "reg=HKCU\SOFTWARE\DownloadManager /v Email /t REG_SZ /d "info@naabilzaman.com"" & call :_rcont
 set "reg=HKCU\SOFTWARE\DownloadManager /v Serial /t REG_SZ /d "FOX6H-3KWH4-7TSIN-Q4US7"" & call :_rcont
 
 echo:
@@ -842,40 +842,17 @@ Possible accepted values,
 
      - If you are still facing any issues, please contact me (mentioned below on this page).
 
-
----------------------------------
-   Credits
----------------------------------
-
-   @Dukun Cabul         - Original researcher of this IDM trial reset and activation logic,
-                          made an Autoit tool for these methods, IDM-AIO_2020_Final
-                          nsaneforums.com/topic/371047--/?do=findComment&comment=1632062
-                         
-   @WindowsAddict       - Ported the above Autoit tool to a batch script
-
-   @AveYo aka @BAU      - Snippet to set registry ownership and permission recursively
-                          pastebin.com/XTPt0JSC
-
-   @abbodi1406          - Awesome batch script tricks and help
-
-   @dbenham             - Set buffer height independently of window height
-                          stackoverflow.com/a/13351373
-
-   @ModByPiash          - Added and fixed some missing features.
-   
-   @NaeemBolchhi (Me)   - Improved username generation.
-
-
 ---------------------------------
    IDM Activator
 ---------------------------------
    
-   Homepage:	https://github.com/NaeemBolchhi/IDM-Activator
+   Homepage:	https://github.com/naabilzaman/IDM-Activator
    
-   Telegram:	https://t.me/NaeemBolchhi
+   Telegram:	https://t.me/naabilzaman
 
 ---------------------------------
 
 :txt:
 
 ::========================================================================================================================================
+
